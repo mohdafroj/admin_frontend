@@ -1,0 +1,85 @@
+ [
+    {
+      id: Math.floor(Math.random() * 100),
+      step1: {
+        _id: "669a1eefc81a8bcb003c9570",
+        moduleId: "OTR",
+        moduleSubId: "Candidate Registration",
+        requestPayload: {
+          candidatePersonalDetails: {
+            candidateNameEn: "SARVESH GUPTA",
+            candidateNameHi: "",
+            genderId: "",
+            genderNameEn: "Male",
+            candidateDateOfBirth: "1997-01-13",
+            singleParentId: "",
+            singleParentNameEn: "no",
+          },    
+          candidateMinorityDetails: {
+            minorityCategoryFlag: "N",
+            minorityCategoryId: "",
+            minorityCategoryNameEn: "",
+          },
+          candidateParentDetails: [
+            {
+              familyMemberId: "1",
+              familyTypeId: "1",
+              familyTypeNameEn: "Father",
+              familyMemberName: "KRISHAN GUPTA",
+              familyMemberGenderId: "1",
+              familyMemberGenderNameEn: "Male",
+            },
+            {
+              familyMemberId: "2",
+              familyTypeId: "2",
+              familyTypeNameEn: "Mother",
+              familyMemberName: "PINKI GUPTA",
+              familyMemberGenderId: "2",
+              familyMemberGenderNameEn: "Female",
+            },
+          ],
+        },
+        roleId: "",
+        userId: "",
+        ipAddress: "14.102.117.50",
+      },
+      step2: {
+        _id: "669a1ef7c81a8bcb003c9573",
+        moduleId: "OTR",
+        moduleSubId: "Candidate Registration",
+        requestPayload: {
+          candidateEducationQualification: {
+            qualificationId: "1",
+            qualificationNameEn: "10th Board",
+            boardUniversityId: "34",
+            boardUniversityName:
+              "STATE BOARD OF SCHOOL EXAMINATIONS(SEC.) & BOARD OF HIGHER SECONDARY EXAMINATIONS, TAMIL NADU",
+            boardUniversityOthName: "",
+            boardUniversityType: "SB",
+            qualificationPassingYear: "2015",
+            qualificationRollNo: "1103636737",
+          },
+        },
+        roleId: "",
+        userId: "",
+        ipAddress: "14.102.117.50",
+      },
+      step3: {
+        _id: "669a1f1ac81a8bcb003c957d",
+        moduleId: "OTR",
+        moduleSubId: "Candidate Registration",
+        requestPayload: {
+          candidateContactDetails: {
+            candidateMobile: "8826107920",
+            mobileAlternate: "",
+            candidateEmail: "sarveshgupta14@gmail.com",
+            candidatePassword: "Email@123",
+            firstTimeLogin: true,
+          },
+        },
+        roleId: "",
+        userId: "", 
+        ipAddress: "14.102.117.50",
+      },
+    },
+  ];
